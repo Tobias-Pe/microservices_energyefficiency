@@ -9,6 +9,10 @@ spring:
       enabled: true
       file: docker/infrastructure-compose.yml
       lifecycle-management: start-only
+  cloud:
+    refresh:
+      enabled: false
+
   datasource:
     username: myuser
     password: mypassword
